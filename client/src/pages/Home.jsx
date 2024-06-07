@@ -8,7 +8,7 @@ function Home() {
     <div>
       <BarPG />
       <BodyPG />
-      <ContactForm /> {/* Si deseas incluir el formulario de contacto en la página de inicio */}
+      <ContactForm />
     </div>
   );
 }

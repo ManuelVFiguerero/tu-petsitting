@@ -7,16 +7,16 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Toaster } from 'react-hot-toast';
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Login from "./pages/Login";
 import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} /> 
       </Routes>
       <Toaster position="bottom-center" reverseOrder={false} />
       <Footer />
