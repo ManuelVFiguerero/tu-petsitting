@@ -23,7 +23,7 @@ const BarPG = () => {
           </div>
         </div>
         <div className="flex space-x-8">
-          <Link to="/buscocuidador" className=" text-white px-8 py-4 rounded-md text-xl font-bold hover:bg-black transition">
+          <Link to="/finder" className=" text-white px-8 py-4 rounded-md text-xl font-bold hover:bg-black transition">
             BUSCO CUIDADOR
           </Link>
           <Link to="/soycuidador" className=" text-white px-8 py-4 rounded-md text-xl font-bold hover:bg-black transition">
