@@ -17,15 +17,15 @@ function Navbar() {
               <ellipse cx="32.3909" cy="32.6667" rx="8.58938" ry="6.28205" fill="#FFF5EB"/>
             </svg>
           </div>
-          <Link to="/Home" className="text-2xl font-bold text-gray-700 ml-4">
+          <Link to="/Home" className="text-2xl font-bold text-custom-gray-green ml-4">
             TUPETSITTING
           </Link>
         </div>
         <div className="flex space-x-6">
-          <Link to="/faq" className="text-xl text-gray-800 hover:text-gray-600">FAQ</Link>
-          <Link to="/about" className="text-xl text-gray-800 hover:text-gray-600">NOSOTROS</Link>
-          <Link to="/login" className="text-xl text-gray-800 hover:text-gray-600">INICIAR SESIÓN</Link>
-          <Link to="/register" className="text-xl text-gray-800 hover:text-gray-600">REGISTRARSE</Link>
+          <Link to="/faq" className="text-xl text-gray-800 hover:text-custom-gray-green">FAQ</Link>
+          <Link to="/about" className="text-xl text-gray-800 hover:text-custom-gray-green">NOSOTROS</Link>
+          <Link to="/login" className="text-xl text-gray-800 hover:text-custom-gray-green">INICIAR SESIÓN</Link>
+          <Link to="/register" className="text-xl text-gray-800 hover:text-custom-gray-green">REGISTRARSE</Link>
         </div>
       </div>
     </nav>
